@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riaft Ahmed Bank</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div id="login-area">
+        <h1 class="text-center">Welcome to RIFAT AHMED BANK</h1>
+        <div class="submit-aria">
+            <h4>Login</h4>
+            <input class="form-control" placeholder="Enter your email">
+            <br>
+            <input class="form-control" type="password" placeholder="Enter your password">
+            <br>
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+        </div>
+        <script>
+            const loginbtn = document.getElementById("login");
+            loginbtn.addEventListener("click", function(){
+                const loginArea = document.getElementById("login-area");
+                loginArea.style.display= "none";
+            }) 
+        </script>
+</body>
+</html>
